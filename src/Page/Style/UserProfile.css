@@ -1,0 +1,94 @@
+/* UserProfile.css */
+
+.user-profile {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-profile-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logout-button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  .todolist {
+    margin-bottom: 20px;
+  }
+  
+  .todolist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todolist-title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .inside-todolist-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .priority-box {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+  
+  .priority-box h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    cursor: grab;
+  }
+  
+  .task:hover {
+    background-color: #e9ecef;
+  }
+  
+  .dragging {
+    opacity: 0.6;
+  }
+  
+  .drop-target {
+    background-color: #d4edda;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .todolist {
+      width: 100%;
+    }
+  
+    .priority-box {
+      flex: 1 1 100%;
+    }
+  }
+  
